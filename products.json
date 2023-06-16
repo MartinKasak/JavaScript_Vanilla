@@ -3,65 +3,65 @@
     {
       "sys": { "id": "1" },
       "fields": {
-        "title": "queen panel bed",
-        "price": 10.99,
-        "image": { "fields": { "file": { "url": "./images/product-1.jpeg" } } }
+        "title": "very nice watch",
+        "price": 710.99,
+        "image": { "fields": { "file": { "url": "./images/craiyon_000000_a_hand_watch.png" } } }
       }
     },
     {
       "sys": { "id": "2" },
       "fields": {
-        "title": "king panel bed",
-        "price": 12.99,
-        "image": { "fields": { "file": { "url": "./images/product-2.jpeg" } } }
+        "title": "the best watch",
+        "price": 612.99,
+        "image": { "fields": { "file": { "url": "./images/craiyon_000158_a_hand_watch.png" } } }
       }
     },
     {
       "sys": { "id": "3" },
       "fields": {
-        "title": "single panel bed",
-        "price": 12.99,
-        "image": { "fields": { "file": { "url": "./images/product-3.jpeg" } } }
+        "title": "luxuary watch",
+        "price": 512.99,
+        "image": { "fields": { "file": { "url": "./images/craiyon_000522_a_hand_watch.png" } } }
       }
     },
     {
       "sys": { "id": "4" },
       "fields": {
-        "title": "twin panel bed",
-        "price": 22.99,
-        "image": { "fields": { "file": { "url": "./images/product-4.jpeg" } } }
+        "title": "pretty nice watch",
+        "price": 322.99,
+        "image": { "fields": { "file": { "url": "./images/craiyon_000740_a_hand_watch.png" } } }
       }
     },
     {
       "sys": { "id": "5" },
       "fields": {
-        "title": "fridge",
-        "price": 88.99,
-        "image": { "fields": { "file": { "url": "./images/product-5.jpeg" } } }
+        "title": "not that bad watch",
+        "price": 188.99,
+        "image": { "fields": { "file": { "url": "./images/craiyon_002909_Photorealistic_photograph_of_a_hand_watch__UHD__HD__200mm_lens__.png" } } }
       }
     },
     {
       "sys": { "id": "6" },
       "fields": {
-        "title": "dresser",
-        "price": 32.99,
-        "image": { "fields": { "file": { "url": "./images/product-6.jpeg" } } }
+        "title": "id wear this watch",
+        "price": 312.99,
+        "image": { "fields": { "file": { "url": "./images/craiyon_011232_Photorealistic_photograph_of_a_hand_watch__UHD__HD__200mm_lens__.png" } } }
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "couch",
-        "price": 45.99,
-        "image": { "fields": { "file": { "url": "./images/product-7.jpeg" } } }
+        "title": "this is fine watch",
+        "price": 425.99,
+        "image": { "fields": { "file": { "url": "./images/craiyon_015136_Photorealistic_photograph_of_a_hand_watch__UHD__HD__200mm_lens__.png" } } }
       }
     },
     {
       "sys": { "id": "8" },
       "fields": {
-        "title": "table",
-        "price": 33.99,
-        "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } }
+        "title": "jsut a watch",
+        "price": 323.99,
+        "image": { "fields": { "file": { "url": "./images/craiyon_235803_a_hand_watch.png" } } }
       }
     }
   ]
