@@ -19,6 +19,7 @@ const cartContent = document.querySelector('.cart-content');
 const productsDOM = document.querySelector('.products-center');
 
 const btns = document.querySelectorAll('.bag-btn');
+
 console.log(btns);
 
 //cart 

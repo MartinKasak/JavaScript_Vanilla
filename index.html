@@ -15,12 +15,12 @@
     <!-- custom css -->
 <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+
     <!-- navbar -->
     <nav class="navbar">
         <div class="navbar-center">
             <span class="nav-icon">
-                <i class="fas fa-bars"></i>
+                <i class="fas fa-bars" onClick="openNav()"> Info </i>
             </span>
             <img src="./images/logo_proc-removebg-preview.png" alt="store logo"> 
             <div class="cart-btn">
@@ -32,6 +32,32 @@
         </div>
     </nav>
     <!-- end of navbar -->
+    <!--sidebar-->
+
+    <div id="mySidenav" class="sidenav">
+      <br>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <h3>Tegemist HTML, CSS ja Javascript põhiselt ehitatud käekellade veebileht</h3>
+      <br>
+      <h3>Toodete Name, Price ja Image tulevad Contentful veebilehelt, ning hosting on Netlify</h3>
+      <br>
+      <h3>Contentful lisatud tooted ilmnevad automaatselt Netlify veebilehel</h3>
+      <br>
+      <h3>Rakenduse kood:
+        <a href="https://www.github.com/MartinKasak/JavaScript_Vanilla">Link</h3></div></a>
+    </div>
+
+    <!--end of sidebar-->
+
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "20%";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
     <!-- hero -->
     <header class="hero">
       <div class="banner">
@@ -81,11 +107,18 @@
         <button class="clear-cart banner-btn">clear cart</button>
         </div>
       </div>
-    </div>>
+    </div>
+    
     <!-- end of cart -->
     <!-- contentful -->
     <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
     <!-- app js -->
     <script src="app.js"></script>
 </body>
+<footer>
+  <div id="end">
+    <h2>Toodete Name, Price ja Image tulevad Contentful veebilehelt, ning hosting on Netlify</h2>
+    <h3>Contentful lisatud tooted ilmnevad automaatselt Netlify veebilehel</h3>
+  </div>
+</footer>
 </html>

@@ -6,7 +6,7 @@ html {
 
 #down {
   margin-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 25%;
  } 
 
 :root {
@@ -27,7 +27,22 @@ body {
   background: var(--mainWhite);
   font-family: "Lato", sans-serif;
 }
+footer {
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  font-family: "Times New Roman", sans-serif;
+  height: 10%;
+  width: 100%;
+  align-self: center;
+  justify-content: space-between;
+  text-align: center;
 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgb(231, 226, 221);
+  z-index: 1;
+
+}
 /* --------------- Navbar ---------------- */
 .navbar {
   position: sticky;
@@ -50,6 +65,7 @@ body {
 }
 .nav-icon {
   font-size: 1.5rem;
+  cursor: pointer;
 }
 .cart-btn {
   position: relative;
@@ -65,6 +81,50 @@ body {
   color: var(--mainWhite);
 }
 /* --------------- End of Navbar ---------------- */
+
+/*---------sidenav----------------------------*/
+.sidenav {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #1e1c1c;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  color: transparent
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*---------End of sidenav----------------------------*/
 /* --------------- Hero ---------------- */
 .hero {
   min-height: calc(100vh - 60px);
