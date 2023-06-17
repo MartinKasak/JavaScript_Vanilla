@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
+html {
+  scroll-behavior: smooth;
+ }
+
+#down {
+  margin-top: 5%;
+  padding-bottom: 5%;
+ } 
+
 :root {
   --primaryColor: #f09d51;
   --mainWhite: #fff;
@@ -86,6 +95,7 @@ body {
   border: 1px solid var(--primaryColor);
   transition: var(--mainTransition);
   cursor: pointer;
+  scroll-behavior: smooth;
 }
 .banner-btn:hover {
   background: transparent;
